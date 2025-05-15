@@ -12,7 +12,7 @@ const page = async ({ params }) => {
     return (
         <div className=' border-2 border-amber-400 p-3'>
             <p className='font-semibold text-sm'>Content id are :{p.id}</p>
-            <p className='font-stretch-semi-expanded'>Here we are see post data {Singledata.body}</p>
+            <p className='font-stretch-semi-expanded '>Here we are see post data {Singledata.body}</p>
 
         </div>
     );

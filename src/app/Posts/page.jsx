@@ -11,13 +11,13 @@ const page = async () => {
     console.log(Allpost)
 
     return (
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid grid-cols-3 gap-4 '>
             {
                 Allpost.map((singlePost) => {
                     return (
-                        <div className='' key={singlePost.id}>
+                        <div className=' border-2 border-orange-400 p-2.5' key={singlePost.id}>
                             <p> Post Title aare :{singlePost.title}</p>
-                            <Link href={`/Posts/${singlePost.id}`}><button className='cursor-pointer'>Details</button></Link>
+                            <Link href={`/Posts/${singlePost.id}`}><button className=' btn cursor-pointer '>Details</button></Link>
 
                         </div>
                     )
